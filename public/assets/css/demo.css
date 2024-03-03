@@ -1,0 +1,304 @@
+/*
+* demo.css
+* File include item demo only specific css only
+******************************************************************************/
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.bg-menu-theme .menu-inner > .menu-item.active > .menu-link {
+  color: rgb(202, 117, 24);
+  background-color: rgba(105, 108, 255, 0.16) !important;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.active:before {
+  background: rgb(202, 117, 24);
+}
+
+.menu-icon{
+  color: rgb(202, 117, 24);
+}
+/* Navbar page z-index issue solution */
+.content-wrapper .navbar {
+  z-index: auto;
+}
+
+.menu-link{
+  cursor: pointer;
+}
+
+.logo{
+  display: block !important;
+  margin: auto !important;
+  text-align: center !important;
+  
+}
+
+.logotxt{
+  color: rgb(19, 45, 82);
+}
+
+.container{
+  
+  margin: 0.75rem auto 0;
+  padding: 0 1.5rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.row{
+  align-items: center !important;
+  justify-content: space-around;
+}
+
+.card{
+  margin-right: 6.49px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  
+}
+
+.imgcard{
+  width: 200px;
+  height: 191px;
+  margin: 10px;
+}
+
+#imgEt{
+  height: 189px;
+  margin-bottom: 12px;
+  
+}
+.cardbtn{
+  background-color: rgb(19, 45, 82);
+  color: white;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.cardbtn:hover{
+  background-color: rgb(202, 117, 24);
+  color: rgb(19, 45, 82);
+}
+.slider{
+  
+  margin:15px 26px;
+  align-items: center !important;
+}
+.c-item{
+  height:280px;
+}
+.c-img{
+  height: 100%;
+  border-radius: 8px;
+}
+
+.carousel-caption > h1{
+    color: rgb(19, 45, 82) !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 45px;
+    text-transform: capitalize;
+    
+}
+
+.carousel-caption > p{
+  color: black !important;
+  font-size: medium;
+  font-weight: 500;
+}
+.carousel-caption{
+  margin: 0%;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 50px;
+  
+}
+.GET{
+
+  width: 97.33333%;
+  margin-bottom: 30px;
+  background: linear-gradient(45deg, #FFA500, #000080) !important;
+  background-size: 200% 200%;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.GET:hover{
+  color: rgb(19, 45, 82);
+}
+
+/*
+* Content
+******************************************************************************/
+
+/*footer
+******************************************************************************/
+.footer-clean {
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+  color: rgb(202, 117, 24);
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:rgb(19, 45, 82);
+  opacity:0.75;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+  transform: rotate(360deg);
+  color: rgb(202, 117, 24);
+  border:1px solid rgb(202, 117, 24);
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+.lastbtn{
+  background-color: rgb(202, 117, 24);
+  color: white;
+}
+
+.buy-now .btn-buy-now {
+  position: fixed;
+  bottom: 10rem;
+
+  right: 1.625rem;
+  z-index: 999999;
+  box-shadow: 0 1px 20px 1px #ff3e1d;
+}
+
+
+/* syle of welcom page */
+
+.underLine{
+  text-decoration: none; /* Supprime le soulignement par défaut */
+  position: relative;
+  transition: all 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.underLine::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 3px;
+  background-color: rgb(19, 45, 82); /* Couleur du soulignement */
+  visibility: hidden;
+  transform: scaleX(0); /* Réduit la largeur à 0 */
+  transition: all 0.3s ease;
+}
+
+/* Animation du soulignement lors du survol */
+a:hover::before {
+  visibility: visible;
+  transform: scaleX(1); /* Rétablit la pleine largeur */
+}
+
+
+/* CSS Lister Salle */
+
+.H3salle{
+  margin: 10px;
+  color: rgb(19, 45, 82);
+  font-weight: 500;
+  font-size: large;
+}
+
+.H3salle small{
+  color: black;
+  margin-left: 15px;
+}
+
+.MUD{
+  text-align: center;
+  color: #000080;
+  font-size: x-large;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

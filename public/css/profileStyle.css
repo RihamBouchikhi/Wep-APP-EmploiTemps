@@ -1,0 +1,17 @@
+body{
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+
+.layout-content-navbar .content-wrapper {
+    width: 96%; 
+    margin-left: 22px;
+}
+.col{
+    padding: 0% !important;
+}
+
+.row{
+    margin-right: 0px;
+}
